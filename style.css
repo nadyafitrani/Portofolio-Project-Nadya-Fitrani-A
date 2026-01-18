@@ -1,0 +1,15 @@
+.live-link {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 18px;
+  background: #38bdf8;
+  color: #020617;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.live-link:hover {
+  background: #0ea5e9;
+}
+
