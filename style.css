@@ -13,13 +13,14 @@ body {
 }
 
 .profile-img {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid #38bdf8;
-  margin-bottom: 15px;
+  width: 150px;        /* Lebar foto */
+  height: 150px;       /* Tinggi foto */
+  object-fit: cover;   /* Memastikan foto tidak terdistorsi */
+  border-radius: 50%;  /* Membuat foto menjadi bulat */
+  display: block;
+  margin: 0 auto;      /* Memposisikan di tengah */
 }
+
 
 .hero h1 {
   margin: 10px 0 5px;
